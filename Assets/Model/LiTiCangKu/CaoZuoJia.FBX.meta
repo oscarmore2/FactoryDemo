@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: d77ddb40ec51df046bc23a39b3a20afa
+timeCreated: 1526281342
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LT_CaoZuoJia18
+    100004: LT_CaoZuoJia20
+    100006: LT_CaoZuoJia22
+    100008: LT_CaoZuoJia23
+    100010: LT_CaoZuoJia24
+    100012: LT_CaoZuoJia25
+    100014: LT_CaoZuoJia26
+    100016: LT_CaoZuoJia27
+    100018: LT_CaoZuoJia28
+    100020: LT_CaoZuoJia29
+    100022: LT_CaoZuoJia30
+    100024: LT_CaoZuoJia31
+    100026: LT_CaoZuoJia32
+    100028: LT_CaoZuoJia33
+    100030: LT_CaoZuoJia34
+    100032: LT_CaoZuoJia35
+    100034: LT_CaoZuoJia36
+    100036: LT_CaoZuoJia37
+    100038: LT_CaoZuoJia38
+    100040: LT_CaoZuoJia39
+    100042: LT_CaoZuoJia42
+    100044: LT_CaoZuoJia43
+    100046: LT_CaoZuoJia44
+    100048: LT_CaoZuoJia45
+    100050: LT_CaoZuoJia46
+    100052: LT_CaoZuoJia47
+    100054: LT_CaoZuoJia48
+    100056: LT_CaoZuoJia49
+    100058: LT_CaoZuoJia50
+    100060: LT_CaoZuoJia51
+    100062: LT_CaoZuoJia52
+    100064: LT_CaoZuoJia53
+    400000: //RootNode
+    400002: LT_CaoZuoJia18
+    400004: LT_CaoZuoJia20
+    400006: LT_CaoZuoJia22
+    400008: LT_CaoZuoJia23
+    400010: LT_CaoZuoJia24
+    400012: LT_CaoZuoJia25
+    400014: LT_CaoZuoJia26
+    400016: LT_CaoZuoJia27
+    400018: LT_CaoZuoJia28
+    400020: LT_CaoZuoJia29
+    400022: LT_CaoZuoJia30
+    400024: LT_CaoZuoJia31
+    400026: LT_CaoZuoJia32
+    400028: LT_CaoZuoJia33
+    400030: LT_CaoZuoJia34
+    400032: LT_CaoZuoJia35
+    400034: LT_CaoZuoJia36
+    400036: LT_CaoZuoJia37
+    400038: LT_CaoZuoJia38
+    400040: LT_CaoZuoJia39
+    400042: LT_CaoZuoJia42
+    400044: LT_CaoZuoJia43
+    400046: LT_CaoZuoJia44
+    400048: LT_CaoZuoJia45
+    400050: LT_CaoZuoJia46
+    400052: LT_CaoZuoJia47
+    400054: LT_CaoZuoJia48
+    400056: LT_CaoZuoJia49
+    400058: LT_CaoZuoJia50
+    400060: LT_CaoZuoJia51
+    400062: LT_CaoZuoJia52
+    400064: LT_CaoZuoJia53
+    2300000: LT_CaoZuoJia18
+    2300002: LT_CaoZuoJia20
+    2300004: LT_CaoZuoJia22
+    2300006: LT_CaoZuoJia23
+    2300008: LT_CaoZuoJia24
+    2300010: LT_CaoZuoJia25
+    2300012: LT_CaoZuoJia26
+    2300014: LT_CaoZuoJia27
+    2300016: LT_CaoZuoJia28
+    2300018: LT_CaoZuoJia29
+    2300020: LT_CaoZuoJia30
+    2300022: LT_CaoZuoJia31
+    2300024: LT_CaoZuoJia32
+    2300026: LT_CaoZuoJia33
+    2300028: LT_CaoZuoJia34
+    2300030: LT_CaoZuoJia35
+    2300032: LT_CaoZuoJia36
+    2300034: LT_CaoZuoJia37
+    2300036: LT_CaoZuoJia38
+    2300038: LT_CaoZuoJia39
+    2300040: LT_CaoZuoJia42
+    2300042: LT_CaoZuoJia43
+    2300044: LT_CaoZuoJia44
+    2300046: LT_CaoZuoJia45
+    2300048: LT_CaoZuoJia46
+    2300050: LT_CaoZuoJia47
+    2300052: LT_CaoZuoJia48
+    2300054: LT_CaoZuoJia49
+    2300056: LT_CaoZuoJia50
+    2300058: LT_CaoZuoJia51
+    2300060: LT_CaoZuoJia52
+    2300062: LT_CaoZuoJia53
+    3300000: LT_CaoZuoJia18
+    3300002: LT_CaoZuoJia20
+    3300004: LT_CaoZuoJia22
+    3300006: LT_CaoZuoJia23
+    3300008: LT_CaoZuoJia24
+    3300010: LT_CaoZuoJia25
+    3300012: LT_CaoZuoJia26
+    3300014: LT_CaoZuoJia27
+    3300016: LT_CaoZuoJia28
+    3300018: LT_CaoZuoJia29
+    3300020: LT_CaoZuoJia30
+    3300022: LT_CaoZuoJia31
+    3300024: LT_CaoZuoJia32
+    3300026: LT_CaoZuoJia33
+    3300028: LT_CaoZuoJia34
+    3300030: LT_CaoZuoJia35
+    3300032: LT_CaoZuoJia36
+    3300034: LT_CaoZuoJia37
+    3300036: LT_CaoZuoJia38
+    3300038: LT_CaoZuoJia39
+    3300040: LT_CaoZuoJia42
+    3300042: LT_CaoZuoJia43
+    3300044: LT_CaoZuoJia44
+    3300046: LT_CaoZuoJia45
+    3300048: LT_CaoZuoJia46
+    3300050: LT_CaoZuoJia47
+    3300052: LT_CaoZuoJia48
+    3300054: LT_CaoZuoJia49
+    3300056: LT_CaoZuoJia50
+    3300058: LT_CaoZuoJia51
+    3300060: LT_CaoZuoJia52
+    3300062: LT_CaoZuoJia53
+    4300000: LT_CaoZuoJia53
+    4300002: LT_CaoZuoJia52
+    4300004: LT_CaoZuoJia51
+    4300006: LT_CaoZuoJia50
+    4300008: LT_CaoZuoJia49
+    4300010: LT_CaoZuoJia48
+    4300012: LT_CaoZuoJia47
+    4300014: LT_CaoZuoJia46
+    4300016: LT_CaoZuoJia24
+    4300018: LT_CaoZuoJia23
+    4300020: LT_CaoZuoJia22
+    4300022: LT_CaoZuoJia45
+    4300024: LT_CaoZuoJia39
+    4300026: LT_CaoZuoJia37
+    4300028: LT_CaoZuoJia38
+    4300030: LT_CaoZuoJia36
+    4300032: LT_CaoZuoJia35
+    4300034: LT_CaoZuoJia34
+    4300036: LT_CaoZuoJia33
+    4300038: LT_CaoZuoJia32
+    4300040: LT_CaoZuoJia20
+    4300042: LT_CaoZuoJia31
+    4300044: LT_CaoZuoJia30
+    4300046: LT_CaoZuoJia29
+    4300048: LT_CaoZuoJia28
+    4300050: LT_CaoZuoJia26
+    4300052: LT_CaoZuoJia27
+    4300054: LT_CaoZuoJia25
+    4300056: LT_CaoZuoJia44
+    4300058: LT_CaoZuoJia42
+    4300060: LT_CaoZuoJia43
+    4300062: LT_CaoZuoJia18
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

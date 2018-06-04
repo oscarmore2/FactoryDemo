@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 7b4e749ce7415f645bb1eb04d85c26ca
+timeCreated: 1525344205
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: YF_Model_HuangXian_128
+    100004: YF_Model_HuangXian_129
+    100006: YF_Model_HuangXian_130
+    100008: YF_Model_HuangXian_131
+    100010: YF_Model_HuangXian_132
+    100012: YF_Model_HuangXian_133
+    100014: YF_Model_HuangXian_134
+    100016: YF_Model_HuangXian_135
+    100018: YF_Model_HuangXian_136
+    100020: YF_Model_HuangXian_137
+    100022: YF_Model_HuangXian_138
+    100024: YF_Model_HuangXian_139
+    100026: YF_Model_HuangXian_140
+    100028: YF_Model_HuangXian_141
+    100030: YF_Model_HuangXian_142
+    400000: //RootNode
+    400002: YF_Model_HuangXian_128
+    400004: YF_Model_HuangXian_129
+    400006: YF_Model_HuangXian_130
+    400008: YF_Model_HuangXian_131
+    400010: YF_Model_HuangXian_132
+    400012: YF_Model_HuangXian_133
+    400014: YF_Model_HuangXian_134
+    400016: YF_Model_HuangXian_135
+    400018: YF_Model_HuangXian_136
+    400020: YF_Model_HuangXian_137
+    400022: YF_Model_HuangXian_138
+    400024: YF_Model_HuangXian_139
+    400026: YF_Model_HuangXian_140
+    400028: YF_Model_HuangXian_141
+    400030: YF_Model_HuangXian_142
+    2300000: YF_Model_HuangXian_128
+    2300002: YF_Model_HuangXian_129
+    2300004: YF_Model_HuangXian_130
+    2300006: YF_Model_HuangXian_131
+    2300008: YF_Model_HuangXian_132
+    2300010: YF_Model_HuangXian_133
+    2300012: YF_Model_HuangXian_134
+    2300014: YF_Model_HuangXian_135
+    2300016: YF_Model_HuangXian_136
+    2300018: YF_Model_HuangXian_137
+    2300020: YF_Model_HuangXian_138
+    2300022: YF_Model_HuangXian_139
+    2300024: YF_Model_HuangXian_140
+    2300026: YF_Model_HuangXian_141
+    2300028: YF_Model_HuangXian_142
+    3300000: YF_Model_HuangXian_128
+    3300002: YF_Model_HuangXian_129
+    3300004: YF_Model_HuangXian_130
+    3300006: YF_Model_HuangXian_131
+    3300008: YF_Model_HuangXian_132
+    3300010: YF_Model_HuangXian_133
+    3300012: YF_Model_HuangXian_134
+    3300014: YF_Model_HuangXian_135
+    3300016: YF_Model_HuangXian_136
+    3300018: YF_Model_HuangXian_137
+    3300020: YF_Model_HuangXian_138
+    3300022: YF_Model_HuangXian_139
+    3300024: YF_Model_HuangXian_140
+    3300026: YF_Model_HuangXian_141
+    3300028: YF_Model_HuangXian_142
+    4300000: YF_Model_HuangXian_128
+    4300002: YF_Model_HuangXian_129
+    4300004: YF_Model_HuangXian_130
+    4300006: YF_Model_HuangXian_131
+    4300008: YF_Model_HuangXian_132
+    4300010: YF_Model_HuangXian_133
+    4300012: YF_Model_HuangXian_134
+    4300014: YF_Model_HuangXian_135
+    4300016: YF_Model_HuangXian_136
+    4300018: YF_Model_HuangXian_137
+    4300020: YF_Model_HuangXian_138
+    4300022: YF_Model_HuangXian_139
+    4300024: YF_Model_HuangXian_140
+    4300026: YF_Model_HuangXian_141
+    4300028: YF_Model_HuangXian_142
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

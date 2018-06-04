@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 92ffaa69ef0636c41997e4bd674d0b81
+timeCreated: 1524210697
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: YF_Model_ZhanLanShi_GunZi
+    100002: YF_Model_ZhanLanShi_Pian
+    100004: YF_Model_ZhanLanShi_Pian_01
+    100006: YF_Model_ZhanLanShi_Pian_02
+    100008: YF_Model_ZhanLanShi_Pian_03
+    100010: YF_Model_ZhanLanShi_Pian_04
+    100012: YF_Model_ZhanLanShi_Pian_05
+    100014: YF_Model_ZhanLanShi_Pian_06
+    100016: YF_Model_ZhanLanShi_Pian_07
+    100018: YF_Model_ZhanLanShi_Pian_08
+    100020: YF_Model_ZhanLanShi_Pian_09
+    100022: YF_Model_ZhanLanShi_Pian_10
+    100024: YF_Model_ZhanLanShi_Pian_11
+    100026: YF_Model_ZhanLanShi_Pian_12
+    100028: YF_Model_ZhanLanShi_Pian_13
+    100030: YF_Model_ZhanLanShi_Pian_14
+    100032: YF_Model_ZhanLanShi_Pian_15
+    100034: YF_Model_ZhanLanShi_TaiZI
+    100036: YF_Model_ZhanLanShi_TaiZI_01
+    100038: YF_Model_ZhanLanShi_TaiZI_02
+    100040: //RootNode
+    100042: "\u3000\uE813\uE811"
+    100044: "\uE814\uE812"
+    100046: YF_Model_ZhanLanShi_TaiZI001
+    100048: YF_Model_ZhanLanShi_BoLi
+    100050: YF_Model_zhanlanshi_BP
+    100052: YF_Model_ZhanLanShi_MenChuang
+    400000: YF_Model_ZhanLanShi_GunZi
+    400002: YF_Model_ZhanLanShi_Pian
+    400004: YF_Model_ZhanLanShi_Pian_01
+    400006: YF_Model_ZhanLanShi_Pian_02
+    400008: YF_Model_ZhanLanShi_Pian_03
+    400010: YF_Model_ZhanLanShi_Pian_04
+    400012: YF_Model_ZhanLanShi_Pian_05
+    400014: YF_Model_ZhanLanShi_Pian_06
+    400016: YF_Model_ZhanLanShi_Pian_07
+    400018: YF_Model_ZhanLanShi_Pian_08
+    400020: YF_Model_ZhanLanShi_Pian_09
+    400022: YF_Model_ZhanLanShi_Pian_10
+    400024: YF_Model_ZhanLanShi_Pian_11
+    400026: YF_Model_ZhanLanShi_Pian_12
+    400028: YF_Model_ZhanLanShi_Pian_13
+    400030: YF_Model_ZhanLanShi_Pian_14
+    400032: YF_Model_ZhanLanShi_Pian_15
+    400034: YF_Model_ZhanLanShi_TaiZI
+    400036: YF_Model_ZhanLanShi_TaiZI_01
+    400038: YF_Model_ZhanLanShi_TaiZI_02
+    400040: //RootNode
+    400042: "\u3000\uE813\uE811"
+    400044: "\uE814\uE812"
+    400046: YF_Model_ZhanLanShi_TaiZI001
+    400048: YF_Model_ZhanLanShi_BoLi
+    400050: YF_Model_zhanlanshi_BP
+    400052: YF_Model_ZhanLanShi_MenChuang
+    2300000: YF_Model_ZhanLanShi_GunZi
+    2300002: YF_Model_ZhanLanShi_Pian
+    2300004: YF_Model_ZhanLanShi_Pian_01
+    2300006: YF_Model_ZhanLanShi_Pian_02
+    2300008: YF_Model_ZhanLanShi_Pian_03
+    2300010: YF_Model_ZhanLanShi_Pian_04
+    2300012: YF_Model_ZhanLanShi_Pian_05
+    2300014: YF_Model_ZhanLanShi_Pian_06
+    2300016: YF_Model_ZhanLanShi_Pian_07
+    2300018: YF_Model_ZhanLanShi_Pian_08
+    2300020: YF_Model_ZhanLanShi_Pian_09
+    2300022: YF_Model_ZhanLanShi_Pian_10
+    2300024: YF_Model_ZhanLanShi_Pian_11
+    2300026: YF_Model_ZhanLanShi_Pian_12
+    2300028: YF_Model_ZhanLanShi_Pian_13
+    2300030: YF_Model_ZhanLanShi_Pian_14
+    2300032: YF_Model_ZhanLanShi_Pian_15
+    2300034: YF_Model_ZhanLanShi_TaiZI
+    2300036: YF_Model_ZhanLanShi_TaiZI_01
+    2300038: YF_Model_ZhanLanShi_TaiZI_02
+    2300040: YF_Model_ZhanLanShi_TaiZI001
+    2300042: YF_Model_ZhanLanShi_BoLi
+    2300044: YF_Model_zhanlanshi_BP
+    2300046: YF_Model_ZhanLanShi_MenChuang
+    3300000: YF_Model_ZhanLanShi_GunZi
+    3300002: YF_Model_ZhanLanShi_Pian
+    3300004: YF_Model_ZhanLanShi_Pian_01
+    3300006: YF_Model_ZhanLanShi_Pian_02
+    3300008: YF_Model_ZhanLanShi_Pian_03
+    3300010: YF_Model_ZhanLanShi_Pian_04
+    3300012: YF_Model_ZhanLanShi_Pian_05
+    3300014: YF_Model_ZhanLanShi_Pian_06
+    3300016: YF_Model_ZhanLanShi_Pian_07
+    3300018: YF_Model_ZhanLanShi_Pian_08
+    3300020: YF_Model_ZhanLanShi_Pian_09
+    3300022: YF_Model_ZhanLanShi_Pian_10
+    3300024: YF_Model_ZhanLanShi_Pian_11
+    3300026: YF_Model_ZhanLanShi_Pian_12
+    3300028: YF_Model_ZhanLanShi_Pian_13
+    3300030: YF_Model_ZhanLanShi_Pian_14
+    3300032: YF_Model_ZhanLanShi_Pian_15
+    3300034: YF_Model_ZhanLanShi_TaiZI
+    3300036: YF_Model_ZhanLanShi_TaiZI_01
+    3300038: YF_Model_ZhanLanShi_TaiZI_02
+    3300040: YF_Model_ZhanLanShi_TaiZI001
+    3300042: YF_Model_ZhanLanShi_BoLi
+    3300044: YF_Model_zhanlanshi_BP
+    3300046: YF_Model_ZhanLanShi_MenChuang
+    4300000: YF_Model_ZhanLanShi_GunZi
+    4300002: YF_Model_ZhanLanShi_TaiZI_01
+    4300004: YF_Model_ZhanLanShi_TaiZI
+    4300006: YF_Model_ZhanLanShi_Pian_15
+    4300008: YF_Model_ZhanLanShi_Pian_14
+    4300010: YF_Model_ZhanLanShi_Pian_13
+    4300012: YF_Model_ZhanLanShi_Pian_12
+    4300014: YF_Model_ZhanLanShi_Pian_11
+    4300016: YF_Model_ZhanLanShi_Pian_10
+    4300018: YF_Model_ZhanLanShi_Pian_09
+    4300020: YF_Model_ZhanLanShi_Pian_08
+    4300022: YF_Model_ZhanLanShi_Pian_07
+    4300024: YF_Model_ZhanLanShi_Pian_06
+    4300026: YF_Model_ZhanLanShi_Pian_05
+    4300028: YF_Model_ZhanLanShi_Pian_04
+    4300030: YF_Model_ZhanLanShi_Pian_03
+    4300032: YF_Model_ZhanLanShi_Pian_02
+    4300034: YF_Model_ZhanLanShi_Pian_01
+    4300036: YF_Model_ZhanLanShi_Pian
+    4300038: YF_Model_ZhanLanShi_TaiZI_02
+    4300040: YF_Model_ZhanLanShi_TaiZI001
+    4300042: YF_Model_ZhanLanShi_BoLi
+    4300044: YF_Model_zhanlanshi_BP
+    4300046: YF_Model_ZhanLanShi_MenChuang
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
