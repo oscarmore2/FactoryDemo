@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ThridParty/NPBehave-1.2.2/Examples/Scripts/NPBehaveExampleHelloBlackboardsAI.cs">
+    <Files>
+      <File FileName="Assets/Script/TouchInput/IInput.cs" Line="14" Column="4" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Examples/Scripts/NPBehaveExampleMouseController.cs" Line="26" Column="1" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Examples/Scripts/NPBehaveExampleHelloWorldAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Examples/Scripts/NPBehaveExampleEnemyAI.cs" Line="43" Column="72" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Examples/Scripts/NPBehaveExampleClockThrottling.cs" Line="15" Column="30" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Blackboard.cs" Line="21" Column="32" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Composite/Sequence.cs" Line="22" Column="21" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Task/Action.cs" Line="5" Column="29" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Task/Task.cs" Line="3" Column="5" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Node.cs" Line="34" Column="9" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Examples/Scripts/NPBehaveExampleHelloBlackboardsAI.cs" Line="20" Column="91" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Composite/Selector.cs" Line="7" Column="35" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Composite/Composite.cs" Line="5" Column="44" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Container.cs" Line="5" Column="5" />
+      <File FileName="Assets/ThridParty/NPBehave-1.2.2/Scripts/Stops.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
