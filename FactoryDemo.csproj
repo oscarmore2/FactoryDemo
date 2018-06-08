@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{773DF1B6-8912-2BB7-3076-1109E16882FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSXIntel64:27</UnityBuildTarget>
+    <UnityVersion>2017.2.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="AmplifyOcclusion">
+      <HintPath>Assets/Misc/Packages/PostProcessing/AmplifyOcclusion/Plugins/AmplifyOcclusion.dll</HintPath>
+    </Reference>
+    <Reference Include="AmplifyBloom">
+      <HintPath>Assets/ThridParty/AmplifyBloom/Plugins/AmplifyBloom.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>/Users/ike/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Users/ike/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Misc\Packages\PostProcessing\AmplifyOcclusion\Plugins\AmplifyOcclusionBase.cs" />
+    <Compile Include="Assets\Misc\Packages\PostProcessing\AmplifyOcclusion\Plugins\AmplifyOcclusionEffect.cs" />
+    <Compile Include="Assets\Misc\Packages\PostProcessing\AmplifyOcclusion\Plugins\Runtime\VersionInfo.cs" />
+    <Compile Include="Assets\Misc\Packages\PostProcessing\AmplifyOcclusion\Samples\Blacksmith\Scripts\Controls.cs" />
+    <Compile Include="Assets\Misc\Packages\PostProcessing\AmplifyOcclusion\Samples\Blacksmith\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\ItemBase.cs" />
+    <Compile Include="Assets\Scripts\ItemPackage.cs" />
+    <Compile Include="Assets\Scripts\JoystickEvent.cs" />
+    <Compile Include="Assets\Scripts\PickTool.cs" />
+    <Compile Include="Assets\Scripts\ToolItem.cs" />
+    <Compile Include="Assets\Test\packetlogic\baseItem.cs" />
+    <Compile Include="Assets\Test\packetlogic\packeUIControl.cs" />
+    <Compile Include="Assets\Test\packetlogic\pikcedItem.cs" />
+    <Compile Include="Assets\Test\packetlogic\quicPickItem.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\AmplifyBloomBase.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\AmplifyBloomEffect.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyBokeh.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyGlare.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyGlareCache.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyItem.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyLensFlare.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyStarData.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\AmplifyUtils.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Plugins\Runtime\VersionInfo.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Samples\Demo\Scripts\DemoCameraMovement.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Samples\Demo\Scripts\DemoFPSCounter.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Samples\Demo\Scripts\DemoMainUI.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Samples\Demo\Scripts\DemoUIElement.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Samples\Demo\Scripts\DemoUISlider.cs" />
+    <Compile Include="Assets\ThridParty\AmplifyBloom\Samples\Demo\Scripts\DemoUIToggle.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Buffer16BitStereo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\ABuffer.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\BitReserve.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Bitstream.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\BitstreamErrors.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\BitstreamException.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\CircularByteBuffer.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Crc16.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoder.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\DecoderErrors.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\DecoderException.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\ASubband.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\IFrameDecoder.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerI\SubbandLayer1.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerI\SubbandLayer1IntensityStereo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerI\SubbandLayer1Stereo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIDecoder.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerII\SubbandLayer2.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerII\SubbandLayer2IntensityStereo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerII\SubbandLayer2Stereo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIIDecoder.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIII\ChannelData.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIII\GranuleInfo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIII\Layer3SideInfo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIII\SBI.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIII\ScaleFactorData.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIII\ScaleFactorTable.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Decoders\LayerIIIDecoder.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Equalizer.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Header.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\Huffman.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\OutputChannels.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\OutputChannelsEnum.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\PushbackStream.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\SampleBuffer.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Decoding\SynthesisFilter.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\IO\RandomAccessFileStream.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\IO\RiffFile.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\IO\WaveFile.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\IO\WaveFileBuffer.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Mp3SharpException.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Mp3Stream.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\SoundFormat.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\MP3Sharp\Support\SupportClass.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\Plugins\Wav.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\WitBaiduAip\Examples\Asr\AsrDemo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\WitBaiduAip\Examples\Tts\TtsDemo.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\WitBaiduAip\Scripts\Speech\Asr.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\WitBaiduAip\Scripts\Speech\Base.cs" />
+    <Compile Include="Assets\ThridParty\BaiduSDK\WitBaiduAip\Scripts\Speech\Tts.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scenes\test.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scripts\NPBehaveExampleClockThrottling.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scripts\NPBehaveExampleEnemyAI.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scripts\NPBehaveExampleHelloBlackboardsAI.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scripts\NPBehaveExampleHelloWorldAI.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scripts\NPBehaveExampleMouseController.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Examples\Scripts\NPBehaveExampleSwarmEnemyAI.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Blackboard.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Clock.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Composite\Composite.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Composite\Parallel.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Composite\Selector.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Composite\Sequence.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Container.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Debugger.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\BlackboardCondition.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\BlackboardQuery.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Condition.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Cooldown.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Decorator.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Failer.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Inverter.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Observer.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\ObservingDecorator.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Random.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Repeater.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Service.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\Succeeder.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\TimeMax.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\TimeMin.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Decorator\WaitForCondition.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Exception.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Node.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Operator.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Root.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Stops.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Task\Action.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Task\NavMoveTo.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Task\Task.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Task\Wait.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\Task\WaitUntilStopped.cs" />
+    <Compile Include="Assets\ThridParty\NPBehave-1.2.2\Scripts\UnityContext.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\Extensions.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonAttribute.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonData.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonException.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonMapper.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonReader.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonWriter.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\JsonWriterRaw.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\Lexer.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\ParserToken.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\Platform.cs" />
+    <Compile Include="Assets\ThridParty\UnityLitJson\Unity\UnityTypeBindings.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Example for EasyButton\Bullet.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Example for EasyButton\ETPlayer.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Example for EasyButton\ManualControl.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example_FirstPerson_DirectMode\GUIFirstDirect.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyJoystick\ExitButton.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-2D\Monster.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-FreeCam\FreeCam.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-FreeCam\GuiCam.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-ManipulationImage\GuiPhoto.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-ManipulationImage\Photo.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-MultiLayer\GuiLayer.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-MultiLayer\TouchLayer.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\GuiMultiFinger.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\ObjectTouch.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\ScreenTouch.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\SlowRotate.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\DoubleTap.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Drag.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\GuiOneFinger.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\LongTap.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Swipe.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Tap.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\TouchStart.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-StartMenu\GuiStartMenu.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\GuiTwoFinger.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\Pinch.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\Twist.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoDoubleTap.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoDrag.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoLongTap.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoSwipe.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoTap.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoTouchStart.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\EasyButton.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\EasyJoystick.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\EasyTouch.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\EasyTouchInput.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\ECamera.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\Finger.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\Gesture.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\MonoSingleton.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\MovingJoystick.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\EasyTouch\Plugins\VirtualScreen.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\Script\TouchInput\IInput.cs" />
+    <Compile Include="Assets\ThridParty\WalkController\ThridParty\Virtual Joystick\Scripts\JoyStick.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ThridParty\NPBehave-1.2.2\LICENSE.txt" />
+    <None Include="Assets\ThridParty\NPBehave-1.2.2\README.txt" />
+    <None Include="Assets\ThridParty\WalkController\EasyTouch\Readme_first.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
